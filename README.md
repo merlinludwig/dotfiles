@@ -11,7 +11,7 @@ ${XDG_CONFIG_HOME}/${PKGNAME}
 ${PKGNAME}/${XDG_CONFIG_HOME}/${PKGNAME}
 
 ## example
-home/
+home/\n
     username/
         .config/
             uzbl/
