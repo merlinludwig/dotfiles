@@ -2,8 +2,10 @@
 Sorted by application, for use with GNU Stow
 
 ## structure
-*for every* ${XDG_CONFIG_HOME}/${PKGNAME}
-*do* ${PKGNAME}/${XDG_CONFIG_HOME}/${PKGNAME}
+*for every*
+${XDG_CONFIG_HOME}/${PKGNAME}
+*do*
+${PKGNAME}/${XDG_CONFIG_HOME}/${PKGNAME}
 
 ## example
 home/
@@ -53,3 +55,6 @@ $ cd ~/dotfiles
 $ stow bash
 $ stow uzbl
 $ stow vim
+
+## reference
+https://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
