@@ -60,3 +60,6 @@ $ stow vim
 
 ## reference
 https://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
+
+# seeding an existing system's dotfiles.
+Since I needed to find a way to discover and migrate my existing system to the stow method, I searched for a migration utility. Failing to find one that meets my purpose, I found mackup instead. (https://github.com/lra/mackup#) I leveraged its existing application and file database and wrote my own seed script.
