@@ -3,8 +3,11 @@ Sorted by application, for use with GNU Stow
 
 ## structure
 *for every*
+
 ${XDG_CONFIG_HOME}/${PKGNAME}
+
 *do*
+
 ${PKGNAME}/${XDG_CONFIG_HOME}/${PKGNAME}
 
 ## example
