@@ -9,7 +9,7 @@ DOTFILES = HOME / "dotfiles"
 
 # Locate Mackup's application configs (works if installed via pip/pacman/etc.)
 # If you cloned the repo, point this directly to the 'mackup/applications' folder.
-MACKUP_APPS_DIR = Path("/usr/lib/python3.13/site-packages/mackup/applications")
+MACKUP_APPS_DIR = Path("mackup/src/mackup/applications")
 # Fallback helper if installed via alternative python paths:
 if not MACKUP_APPS_DIR.exists():
     import mackup
