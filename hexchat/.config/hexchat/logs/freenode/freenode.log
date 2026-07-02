@@ -1,0 +1,75 @@
+**** BEGIN LOGGING AT Fri Nov 21 09:44:01 2025
+
+Nov 21 09:44:01 *	*** Looking up your ident...
+Nov 21 09:44:01 *	*** Looking up your hostname...
+Nov 21 09:44:01 *	Capabilities supported: account-notify account-tag away-notify batch cap-notify chghost draft/relaymsg=/ echo-message extended-join inspircd.org/poison inspircd.org/standard-replies invite-notify labeled-response message-tags multi-prefix sasl server-time setname userhost-in-names 
+Nov 21 09:44:01 *	Capabilities requested: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time setname userhost-in-names 
+Nov 21 09:44:01 *	*** Could not resolve your hostname: Domain not found; using your IP address (2602:43:3bc:7e00:d04a:4c65:dd65:dafa) instead.
+Nov 21 09:44:01 *	Capabilities acknowledged: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time setname userhost-in-names
+Nov 21 09:44:06 *	*** Ident lookup timed out, using ~manjaro-i instead.
+**** ENDING LOGGING AT Fri Nov 21 09:44:06 2025
+
+**** BEGIN LOGGING AT Fri Nov 21 09:44:06 2025
+
+Nov 21 09:44:06 *	Welcome to the freenode IRC Network manjaroi3!~manjaro-i@2602:43:3bc:7e00:d04a:4c65:dd65:dafa
+Nov 21 09:44:06 *	Your host is *.freenode.net, running version InspIRCd-3
+Nov 21 09:44:06 *	This server was created 07:36:24 Oct 07 2025
+Nov 21 09:44:06 *	*.freenode.net InspIRCd-3 BDHILRSTWcdghikorswxz ABCDEFIJKLMNOPQRSTUWXYZbcdefhijklmnoprstuvwz :BEFIJLWXYZbdefhjklovw
+Nov 21 09:44:06 *	ACCEPT=30 AWAYLEN=200 BOT=B CALLERID=g CASEMAPPING=ascii CHANLIMIT=#:20 CHANMODES=IXZbew,k,BEFJLWdfjl,ACDKMNOPQRSTUcimnprstuz CHANNELLEN=64 CHANTYPES=# ELIST=CMNTU ESILENCE=CcdiNnPpTtx EXCEPTS=e :are supported by this server
+Nov 21 09:44:06 *	EXTBAN=,ACNOQRSTUacjmnpruwz HOSTLEN=64 INVEX=I KEYLEN=32 KICKLEN=255 LINELEN=512 MAXLIST=I:100,X:100,b:100,e:100,w:100 MAXTARGETS=20 MODES=20 MONITOR=30 NAMELEN=128 NAMESX NETWORK=freenode :are supported by this server
+Nov 21 09:44:06 *	NICKLEN=30 PREFIX=(Yohv)!@%+ REMOVE SAFELIST SECURELIST=60 SILENCE=32 STATUSMSG=!@%+ TOPICLEN=390 UHNAMES USERIP USERLEN=10 USERMODES=,,s,BDHILRSTWcdghikorwxz VBANLIST :are supported by this server
+Nov 21 09:44:06 *	VLIST=b WATCH=32 WHOX :are supported by this server
+Nov 21 09:44:06 *	There are 13 users and 5461 invisible on 10 servers
+Nov 21 09:44:06 *	7 :operator(s) online
+Nov 21 09:44:06 *	14 :unknown connections
+Nov 21 09:44:06 *	8520 :channels formed
+Nov 21 09:44:06 *	I have 3108 clients and 1 servers
+Nov 21 09:44:06 *	Current local users: 3108  Max: 3323
+Nov 21 09:44:06 *	Current global users: 5474  Max: 5865
+Nov 21 09:44:06 *	*.freenode.net message of the day
+Nov 21 09:44:06 *	  Welcome to the
+Nov 21 09:44:06 *	          __                               _
+Nov 21 09:44:06 *	         / _|_ __ ___  ___ _ __   ___   __| | ___
+Nov 21 09:44:06 *	        | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \
+Nov 21 09:44:06 *	        |  _| | |  __/  __/ | | | (_) | (_| |  __/
+Nov 21 09:44:06 *	        |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|
+Nov 21 09:44:06 *	                                   AUTONOMOUS ZONE
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  Connect to us on:
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  Hostname: irc.freenode.net / chat.freenode.net
+Nov 21 09:44:06 *	  Plaintext: 6660-6669
+Nov 21 09:44:06 *	  TLS/SSL: 6697,7000,7070
+Nov 21 09:44:06 *	  Webchat: https://webchat.freenode.net
+Nov 21 09:44:06 *	  Sponsor: https://vp.net - Verified Privacy
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  By connecting to freenode you indicate that you have read and accept our
+Nov 21 09:44:06 *	  policies and guidelines as set out on https://freenode.net and agree to
+Nov 21 09:44:06 *	  be scanned for an open proxy.
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  If you are looking for assistance, please try:
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  #help                    - Help with general IRC and Services.
+Nov 21 09:44:06 *	  #chanhelp                - Help with channels and channel services.
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  Checkout some of our communities and services:
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  #trivia                  - All new trivia channel.
+Nov 21 09:44:06 *	  #duckhunt                - Join the hunt.
+Nov 21 09:44:06 *	  #freenode-radio          - Freenode's very own radio channel.
+Nov 21 09:44:06 *	  #freenode                - Chat about freenode.
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  Type /join #<channel>
+Nov 21 09:44:06 *	 
+Nov 21 09:44:06 *	  Thank you for using freenode!
+Nov 21 09:44:06 *	End of message of the day.
+Nov 21 09:44:06 *	freenode-qi0rig.crqv.dlpk.afjshv.IP :is now your displayed host
+Nov 21 09:44:06 *	manjaroi3 sets mode +w on manjaroi3
+Nov 21 09:44:06 *	manjaroi3 sets mode +R on manjaroi3
+Nov 21 09:44:06 *	manjaroi3 sets mode +i on manjaroi3
+Nov 21 09:44:06 *	manjaroi3 sets mode +x on manjaroi3
+Nov 21 09:44:20 Sysinfo plugin unloaded
+Nov 21 09:44:20 Perl interface unloaded
+Nov 21 09:44:20 Checksum plugin unloaded
+**** ENDING LOGGING AT Fri Nov 21 09:44:20 2025
+

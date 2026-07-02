@@ -1,0 +1,4 @@
+T 1763739846 19*	Now talking on 22#manjaro-talk
+T 1763739846 -18Global-	[Random News - Aug 14 18:27:23 2024 UTC] Do you like shooting ducks? Join #duckhunt 🦆 | For music needs, join #freenode-radio 🎶 | Are you smarter than a 5th grader? Join #trivia 🧠
+T 1763739846 24*	Received a CTCP 24VERSION from 18Harambe
+T 1763739860 FiSHLiM plugin unloaded
