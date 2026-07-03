@@ -3,3 +3,8 @@
 	name = Merlin Ludwig
 [pull]
 	rebase = false
+[init]
+	defaultBranch = development
+[safe]
+	directory = /storage/emulated/0/Documents/obsidian-notes/Enter Ravenloft
+	directory = /storage/emulated/0/Documents/devel/locc_site
