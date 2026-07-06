@@ -304,7 +304,8 @@ bindsym $mod+n exec --no-startup-id /usr/bin/thunar
 
 # Screenshot
 # complete screen
-bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+#bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+bindsym Print exec --no-startup-id flameshot gui
 # the currently focused window
 bindsym $mod+Print exec --no-startup-id scrot -u ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 # select a window or rectangle with the mouse
