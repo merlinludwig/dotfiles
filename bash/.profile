@@ -1,4 +1,2 @@
-. "$HOME/.cargo/env"
-
-# include Mycroft commands
-source ~/.profile_mycroft
+export TERMINAL=xfce4-terminal
+#export QT_QPA_PLATFORMTHEME=qt5ct
