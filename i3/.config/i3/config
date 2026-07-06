@@ -54,7 +54,7 @@ new_window pixel 1
 # hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 6
+gaps inner 3
 gaps outer 3
 
 # show window title bars (not officially supported with i3gaps)
@@ -175,7 +175,7 @@ bindcode $mod+Shift+90   move container to workspace  $ws10
 bindsym $mod+Return exec --no-startup-id xfce4-terminal
 
 # kill focused window
-bindsym $mod+q kill
+bindsym $mod+Shift+q kill
 
 # exit-menu
 bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
