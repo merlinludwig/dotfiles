@@ -2,7 +2,7 @@
 
 "$schema" = 'https://starship.rs/config-schema.json'
 
-palette = "theming-manjaro"
+palette = "theming-default"
 
 continuation_prompt = "[.](bright-black) "
 
