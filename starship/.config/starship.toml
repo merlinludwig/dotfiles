@@ -1,32 +1,203 @@
+# starship.toml
+
 "$schema" = 'https://starship.rs/config-schema.json'
+
+palette = "theming-default"
 
 continuation_prompt = "[.](bright-black) "
 
-[character]
-success_symbol = "[>](bold green)"
-error_symbol = "[x](bold red)"
-vimcmd_symbol = "[<](bold green)"
-vimcmd_visual_symbol = "[<](bold yellow)"
-vimcmd_replace_symbol = "[<](bold purple)"
-vimcmd_replace_one_symbol = "[<](bold purple)"
-
-[git_commit]
-tag_symbol = " tag "
-
-[git_status]
-ahead = ">"
-behind = "<"
-diverged = "<>"
-renamed = "r"
-deleted = "x"
+[palettes.theming-default]
+aws_bg = "#000000"
+aws_fg = "yellow"
+azure_bg = "#000000"
+azure_fg = "blue"
+battery_bg = "#000000"
+battery_fg = "white"
+buf_bg = "#000000"
+buf_fg = "blue"
+bun_bg = "#000000"
+bun_fg = "red"
+c_bg = "#000000"
+c_fg = "149"
+character_error_bg = "#000000"
+character_error_fg = "red"
+character_success_bg = "#000000"
+character_success_fg = "green"
+character_vimcmd_bg = "#000000"
+character_vimcmd_fg = "green"
+character_vimcmd_replace_bg = "#000000"
+character_vimcmd_replace_fg = "purple"
+character_vimcmd_replace_one_bg = "#000000"
+character_vimcmd_replace_one_fg = "purple"
+character_vimcmd_visual_bg = "#000000"
+character_vimcmd_visual_fg = "yellow"
+cmake_bg = "#000000"
+cmake_fg = "blue"
+cobol_bg = "#000000"
+cobol_fg = "blue"
+conda_bg = "#000000"
+conda_fg = "green"
+container_bg = "#000000"
+container_fg = "red"
+cpp_bg = "#000000"
+cpp_fg = "149"
+crystal_bg = "#000000"
+crystal_fg = "red"
+daml_bg = "#000000"
+daml_fg = "cyan"
+dart_bg = "#000000"
+dart_fg = "blue"
+deno_bg = "#000000"
+deno_fg = "green"
+directory_bg = "#000000"
+directory_fg = "cyan"
+docker_context_bg = "#000000"
+docker_context_fg = "blue"
+dotnet_bg = "#000000"
+dotnet_fg = "blue"
+elixir_bg = "#000000"
+elixir_fg = "purple"
+elm_bg = "#000000"
+elm_fg = "cyan"
+erlang_bg = "#000000"
+erlang_fg = "red"
+fennel_bg = "#000000"
+fennel_fg = "green"
+fortran_bg = "#000000"
+fortran_fg = "purple"
+fossil_branch_bg = "#000000"
+fossil_branch_fg = "purple"
+gcloud_bg = "#000000"
+gcloud_fg = "blue"
+git_branch_bg = "#000000"
+git_branch_fg = "purple"
+git_commit_bg = "#000000"
+git_commit_fg = "green"
+git_status_bg = "#000000"
+git_status_fg = "red"
+gleam_bg = "#000000"
+gleam_fg = "#FFAFF3"
+golang_bg = "#000000"
+golang_fg = "cyan"
+gradle_bg = "#000000"
+gradle_fg = "bright-cyan"
+guix_shell_bg = "#000000"
+guix_shell_fg = "yellow"
+haskell_bg = "#000000"
+haskell_fg = "purple"
+haxe_bg = "#000000"
+haxe_fg = "202"
+helm_bg = "#000000"
+helm_fg = "white"
+hg_branch_bg = "#000000"
+hg_branch_fg = "purple"
+hostname_bg = "#000000"
+hostname_fg = "green"
+java_bg = "#000000"
+java_fg = "red"
+jobs_bg = "#000000"
+jobs_fg = "blue"
+julia_bg = "#000000"
+julia_fg = "purple"
+kotlin_bg = "#000000"
+kotlin_fg = "blue"
+kubernetes_bg = "#000000"
+kubernetes_fg = "cyan"
+lua_bg = "#000000"
+lua_fg = "blue"
+maven_bg = "#000000"
+maven_fg = "bright-cyan"
+memory_usage_bg = "#000000"
+memory_usage_fg = "white"
+meson_bg = "#000000"
+meson_fg = "blue"
+mojo_bg = "#000000"
+mojo_fg = "208"
+nats_bg = "#000000"
+nats_fg = "purple"
+netns_bg = "#000000"
+netns_fg = "blue"
+nim_bg = "#000000"
+nim_fg = "yellow"
+nix_shell_bg = "#000000"
+nix_shell_fg = "blue"
+nodejs_bg = "#000000"
+nodejs_fg = "green"
+ocaml_bg = "#000000"
+ocaml_fg = "yellow"
+odin_bg = "#000000"
+odin_fg = "bright-blue"
+opa_bg = "#000000"
+opa_fg = "blue"
+openstack_bg = "#000000"
+openstack_fg = "yellow"
+os_bg = "#000000"
+os_fg = "white"
+package_bg = "#000000"
+package_fg = "208"
+perl_bg = "#000000"
+perl_fg = "149"
+php_bg = "#000000"
+php_fg = "147"
+pijul_channel_bg = "#000000"
+pijul_channel_fg = "purple"
+pixi_bg = "#000000"
+pixi_fg = "yellow"
+pulumi_bg = "#000000"
+pulumi_fg = "5"
+purescript_bg = "#000000"
+purescript_fg = "white"
+python_bg = "#000000"
+python_fg = "yellow"
+quarto_bg = "#000000"
+quarto_fg = "#75AADB"
+raku_bg = "#000000"
+raku_fg = "149"
+red_bg = "#000000"
+red_fg = "red"
+rlang_bg = "#000000"
+rlang_fg = "blue"
+ruby_bg = "#000000"
+ruby_fg = "red"
+rust_bg = "#000000"
+rust_fg = "red"
+scala_bg = "#000000"
+scala_fg = "red"
+shell_bg = "#000000"
+shell_fg = "white"
+shlvl_bg = "#000000"
+shlvl_fg = "yellow"
+solidity_bg = "#000000"
+solidity_fg = "blue"
+spack_bg = "#000000"
+spack_fg = "blue"
+status_bg = "#000000"
+status_fg = "red"
+sudo_bg = "#000000"
+sudo_fg = "blue"
+swift_bg = "#000000"
+swift_fg = "202"
+terraform_bg = "#000000"
+terraform_fg = "105"
+typst_bg = "#000000"
+typst_fg = "#0093A7"
+vagrant_bg = "#000000"
+vagrant_fg = "cyan"
+xmake_bg = "#000000"
+xmake_fg = "green"
+zig_bg = "#000000"
+zig_fg = "yellow"
 
 [aws]
+style = "bold fg:aws_fg bg:aws_bg"
 symbol = "aws "
 
 [azure]
+style = "bold fg:azure_fg bg:azure_bg"
 symbol = "az "
 
 [battery]
+style = "fg:battery_fg bg:battery_bg"
 full_symbol = "full "
 charging_symbol = "charging "
 discharging_symbol = "discharging "
@@ -35,164 +206,236 @@ empty_symbol = "empty "
 disabled = true
 
 [buf]
+style = "bold fg:buf_fg bg:buf_bg"
 symbol = "buf "
 
 [bun]
+style = "bold fg:bun_fg bg:bun_bg"
 symbol = "bun "
 
 [c]
+style = "bold fg:c_fg bg:c_bg"
 symbol = "C "
 
-[cpp]
-symbol = "C++ "
+[character]
+success_symbol = "[>](bold fg:character_success_fg bg:character_success_bg)"
+error_symbol = "[x](bold fg:character_error_fg bg:character_error_bg)"
+vimcmd_symbol = "[<](bold fg:character_vimcmd_fg bg:character_vimcmd_bg)"
+vimcmd_visual_symbol = "[<](bold fg:character_vimcmd_visual_fg bg:character_vimcmd_visual_bg)"
+vimcmd_replace_symbol = "[<](bold fg:character_vimcmd_replace_fg bg:character_vimcmd_replace_bg)"
+vimcmd_replace_one_symbol = "[<](bold fg:character_vimcmd_replace_one_fg bg:character_vimcmd_replace_one_bg)"
+
+[cmake]
+style = "bold fg:cmake_fg bg:cmake_bg"
+symbol = "cmake "
 
 [cobol]
+style = "bold fg:cobol_fg bg:cobol_bg"
 symbol = "cobol "
 
 [conda]
+style = "bold fg:conda_fg bg:conda_bg"
 symbol = "conda "
 
 [container]
+style = "bold dimmed fg:container_fg bg:container_bg"
 symbol = "container "
 
+[cpp]
+style = "bold fg:cpp_fg bg:cpp_bg"
+symbol = "C++ "
+
 [crystal]
+style = "bold fg:crystal_fg bg:crystal_bg"
 symbol = "cr "
 
-[cmake]
-symbol = "cmake "
-
 [daml]
+style = "bold fg:daml_fg bg:daml_bg"
 symbol = "daml "
 
 [dart]
+style = "bold fg:dart_fg bg:dart_bg"
 symbol = "dart "
 
 [deno]
+style = "bold fg:deno_fg bg:deno_bg"
 symbol = "deno "
 
-[dotnet]
-format = "via [$symbol($version )(target $tfm )]($style)"
-symbol = ".NET "
-
 [directory]
+style = "bold fg:directory_fg bg:directory_bg"
 read_only = " ro"
 
 [docker_context]
+style = "bold fg:docker_context_fg bg:docker_context_bg"
 symbol = "docker "
 
+[dotnet]
+style = "bold fg:dotnet_fg bg:dotnet_bg"
+format = "via [$symbol($version )(target $tfm )]($style)"
+symbol = ".NET "
+
 [elixir]
+style = "bold fg:elixir_fg bg:elixir_bg"
 symbol = "exs "
 
 [elm]
+style = "bold fg:elm_fg bg:elm_bg"
 symbol = "elm "
 
 [erlang]
+style = "bold fg:erlang_fg bg:erlang_bg"
 symbol = "erl "
 
 [fennel]
+style = "bold fg:fennel_fg bg:fennel_bg"
 symbol = "fnl "
 
 [fortran]
+style = "bold fg:fortran_fg bg:fortran_bg"
 symbol = "fortran "
 
 [fossil_branch]
+style = "bold fg:fossil_branch_fg bg:fossil_branch_bg"
 symbol = "fossil "
 truncation_symbol = "..."
 
 [gcloud]
+style = "bold fg:gcloud_fg bg:gcloud_bg"
 symbol = "gcp "
 
 [git_branch]
+style = "bold fg:git_branch_fg bg:git_branch_bg"
 symbol = "git "
 truncation_symbol = "..."
 
+[git_commit]
+style = "bold fg:git_commit_fg bg:git_commit_bg"
+tag_symbol = " tag "
+
+[git_status]
+style = "bold fg:git_status_fg bg:git_status_bg"
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+
 [gleam]
+style = "bold fg:gleam_fg bg:gleam_bg"
 symbol = "gleam "
 
 [golang]
+style = "bold fg:golang_fg bg:golang_bg"
 symbol = "go "
 
 [gradle]
+style = "bold fg:gradle_fg bg:gradle_bg"
 symbol = "gradle "
 
 [guix_shell]
+style = "bold fg:guix_shell_fg bg:guix_shell_bg"
 symbol = "guix "
 
 [haskell]
+style = "bold fg:haskell_fg bg:haskell_bg"
 symbol = "haskell "
 
 [haxe]
+style = "bold fg:haxe_fg bg:haxe_bg"
 symbol = "hx "
 
 [helm]
+style = "bold fg:helm_fg bg:helm_bg"
 symbol = "helm "
 
 [hg_branch]
+style = "bold fg:hg_branch_fg bg:hg_branch_bg"
 symbol = "hg "
 truncation_symbol = "..."
 
 [hostname]
+style = "dimmed bold fg:hostname_fg bg:hostname_bg"
 ssh_symbol = "ssh "
 
 [java]
+style = "dimmed fg:java_fg bg:java_bg"
 symbol = "java "
 
 [jobs]
+style = "bold fg:jobs_fg bg:jobs_bg"
 symbol = "*"
 
 [julia]
+style = "bold fg:julia_fg bg:julia_bg"
 symbol = "jl "
 
 [kotlin]
+style = "bold fg:kotlin_fg bg:kotlin_bg"
 symbol = "kt "
 
 [kubernetes]
+style = "bold fg:kubernetes_fg bg:kubernetes_bg"
 symbol = "kubernetes "
 
 [lua]
+style = "bold fg:lua_fg bg:lua_bg"
 symbol = "lua "
 
 [maven]
+style = "bold fg:maven_fg bg:maven_bg"
 symbol = "maven "
 
-[nodejs]
-symbol = "nodejs "
-
 [memory_usage]
+style = "bold dimmed fg:memory_usage_fg bg:memory_usage_bg"
 symbol = "memory "
 
 [meson]
+style = "bold fg:meson_fg bg:meson_bg"
 symbol = "meson "
 truncation_symbol = "..."
 
 [mojo]
+style = "bold fg:mojo_fg bg:mojo_bg"
 symbol = "mojo "
 
 [nats]
+style = "bold fg:nats_fg bg:nats_bg"
 symbol = "nats "
 
 [netns]
+style = "bold dimmed fg:netns_fg bg:netns_bg"
 symbol = "netns "
 
 [nim]
+style = "bold fg:nim_fg bg:nim_bg"
 symbol = "nim "
 
 [nix_shell]
+style = "bold fg:nix_shell_fg bg:nix_shell_bg"
 symbol = "nix "
 
+[nodejs]
+style = "bold fg:nodejs_fg bg:nodejs_bg"
+symbol = "nodejs "
+
 [ocaml]
+style = "bold fg:ocaml_fg bg:ocaml_bg"
 symbol = "ml "
 
 [odin]
+style = "bold fg:odin_fg bg:odin_bg"
 symbol = "odin "
 
 [opa]
+style = "bold fg:opa_fg bg:opa_bg"
 symbol = "opa "
 
 [openstack]
+style = "bold fg:openstack_fg bg:openstack_bg"
 symbol = "openstack "
 
 [os]
+style = "bold fg:os_fg bg:os_bg"
 disabled = false
 
 [os.symbols]
@@ -256,64 +499,84 @@ Windows = "win "
 Zorin = "zorn "
 
 [package]
+style = "bold fg:package_fg bg:package_bg"
 symbol = "pkg "
 
 [perl]
+style = "bold fg:perl_fg bg:perl_bg"
 symbol = "pl "
 
 [php]
+style = "bold fg:php_fg bg:php_bg"
 symbol = "php "
 
 [pijul_channel]
+style = "bold fg:pijul_channel_fg bg:pijul_channel_bg"
 symbol = "pijul "
 truncation_symbol = "..."
 
 [pixi]
+style = "bold fg:pixi_fg bg:pixi_bg"
 symbol = "pixi "
 
 [pulumi]
+style = "bold fg:pulumi_fg bg:pulumi_bg"
 symbol = "pulumi "
 
 [purescript]
+style = "bold fg:purescript_fg bg:purescript_bg"
 symbol = "purs "
 
 [python]
+style = "bold fg:python_fg bg:python_bg"
 symbol = "py "
 
 [quarto]
+style = "bold fg:quarto_fg bg:quarto_bg"
 symbol = "quarto "
 
 [raku]
+style = "bold fg:raku_fg bg:raku_bg"
 symbol = "raku "
 
 [red]
+style = "bold fg:red_fg bg:red_bg"
 symbol = "red "
 
 [rlang]
+style = "bold fg:rlang_fg bg:rlang_bg"
 symbol = "r "
 
 [ruby]
+style = "bold fg:ruby_fg bg:ruby_bg"
 symbol = "rb "
 
 [rust]
+style = "bold fg:rust_fg bg:rust_bg"
 symbol = "rs "
 
 [scala]
+style = "bold fg:scala_fg bg:scala_bg"
 symbol = "scala "
 
 [shell]
+style = "bold fg:shell_fg bg:shell_bg"
 disabled = false
 
 [shlvl]
+style = "bold fg:shlvl_fg bg:shlvl_bg"
 symbol = "shlvl "
 
-[spack]
-symbol = "spack "
-
 [solidity]
+style = "bold fg:solidity_fg bg:solidity_bg"
 symbol = "solidity "
 
+[spack]
+style = "bold fg:spack_fg bg:spack_bg"
+symbol = "spack "
+
 [status]
+style = "bold fg:status_fg bg:status_bg"
 symbol = "[x](bold red) "
 not_executable_symbol = "noexec"
 not_found_symbol = "notfound"
@@ -321,22 +584,29 @@ sigint_symbol = "sigint"
 signal_symbol = "sig"
 
 [sudo]
+style = "bold fg:sudo_fg bg:sudo_bg"
 symbol = "sudo "
 
 [swift]
+style = "bold fg:swift_fg bg:swift_bg"
 symbol = "swift "
 
+[terraform]
+style = "bold fg:terraform_fg bg:terraform_bg"
+symbol = "terraform "
+
 [typst]
+style = "bold fg:typst_fg bg:typst_bg"
 symbol = "typst "
 
 [vagrant]
+style = "bold fg:vagrant_fg bg:vagrant_bg"
 symbol = "vagrant "
 
-[terraform]
-symbol = "terraform "
-
 [xmake]
+style = "bold fg:xmake_fg bg:xmake_bg"
 symbol = "xmake "
 
 [zig]
+style = "bold fg:zig_fg bg:zig_bg"
 symbol = "zig "
