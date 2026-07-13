@@ -1,0 +1,651 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = "$all"
+right_format = ""
+continuation_prompt = "[∙](bright-black) "
+scan_timeout = 30
+command_timeout = 500
+add_newline = true
+follow_symlinks = true
+
+palette = "default"
+
+[palettes.default]
+aws_fg = "yellow"
+aws_bg = "none"
+azure_fg = "blue"
+azure_bg = "none"
+buf_fg = "blue"
+buf_bg = "none"
+bun_fg = "red"
+bun_bg = "none"
+c_fg = "149"
+c_bg = "none"
+character_success_fg = "green"
+character_success_bg = "none"
+character_error_fg = "red"
+character_error_bg = "none"
+character_vimcmd_fg = "green"
+character_vimcmd_bg = "none"
+character_vimcmd_visual_fg = "yellow"
+character_vimcmd_visual_bg = "none"
+character_vimcmd_replace_fg = "purple"
+character_vimcmd_replace_bg = "none"
+character_vimcmd_replace_one_fg = "purple"
+character_vimcmd_replace_one_bg = "none"
+claude_model_fg = "blue"
+claude_model_bg = "none"
+cmake_fg = "blue"
+cmake_bg = "none"
+cmd_duration_fg = "yellow"
+cmd_duration_bg = "none"
+cobol_fg = "blue"
+cobol_bg = "none"
+conda_fg = "green"
+conda_bg = "none"
+container_fg = "red"
+container_bg = "none"
+cpp_fg = "149"
+cpp_bg = "none"
+crystal_fg = "red"
+crystal_bg = "none"
+daml_fg = "cyan"
+daml_bg = "none"
+dart_fg = "blue"
+dart_bg = "none"
+deno_fg = "green"
+deno_bg = "none"
+directory_fg = "cyan"
+directory_bg = "none"
+directory_read_only_style_fg = "red"
+directory_read_only_style_bg = "none"
+direnv_fg = "bright-yellow"
+direnv_bg = "none"
+docker_context_fg = "blue"
+docker_context_bg = "none"
+dotnet_fg = "blue"
+dotnet_bg = "none"
+elixir_fg = "purple"
+elixir_bg = "none"
+elm_fg = "cyan"
+elm_bg = "none"
+env_var_fg = "black"
+env_var_bg = "none"
+erlang_fg = "red"
+erlang_bg = "none"
+fennel_fg = "green"
+fennel_bg = "none"
+fill_fg = "black"
+fill_bg = "none"
+fortran_fg = "purple"
+fortran_bg = "none"
+fossil_branch_fg = "purple"
+fossil_branch_bg = "none"
+fossil_metrics_added_style_fg = "green"
+fossil_metrics_added_style_bg = "none"
+fossil_metrics_deleted_style_fg = "red"
+fossil_metrics_deleted_style_bg = "none"
+gcloud_fg = "blue"
+gcloud_bg = "none"
+git_branch_fg = "purple"
+git_branch_bg = "none"
+git_commit_fg = "green"
+git_commit_bg = "none"
+git_metrics_added_style_fg = "green"
+git_metrics_added_style_bg = "none"
+git_metrics_deleted_style_fg = "red"
+git_metrics_deleted_style_bg = "none"
+git_state_fg = "yellow"
+git_state_bg = "none"
+git_status_fg = "red"
+git_status_bg = "none"
+gleam_fg = "#FFAFF3"
+gleam_bg = "none"
+golang_fg = "cyan"
+golang_bg = "none"
+golang_not_capable_fg = "red"
+golang_not_capable_bg = "none"
+gradle_fg = "bright-cyan"
+gradle_bg = "none"
+guix_shell_fg = "yellow"
+guix_shell_bg = "none"
+haskell_fg = "purple"
+haskell_bg = "none"
+haxe_fg = "202"
+haxe_bg = "none"
+helm_fg = "white"
+helm_bg = "none"
+hg_branch_fg = "purple"
+hg_branch_bg = "none"
+hg_state_fg = "yellow"
+hg_state_bg = "none"
+hostname_fg = "green"
+hostname_bg = "none"
+java_fg = "red"
+java_bg = "none"
+jobs_fg = "blue"
+jobs_bg = "none"
+julia_fg = "purple"
+julia_bg = "none"
+kotlin_fg = "blue"
+kotlin_bg = "none"
+kubernetes_fg = "cyan"
+kubernetes_bg = "none"
+localip_fg = "yellow"
+localip_bg = "none"
+lua_fg = "blue"
+lua_bg = "none"
+maven_fg = "bright-cyan"
+maven_bg = "none"
+memory_usage_fg = "white"
+memory_usage_bg = "none"
+meson_fg = "blue"
+meson_bg = "none"
+mise_fg = "purple"
+mise_bg = "none"
+mojo_fg = "208"
+mojo_bg = "none"
+nats_fg = "purple"
+nats_bg = "none"
+netns_fg = "blue"
+netns_bg = "none"
+nim_fg = "yellow"
+nim_bg = "none"
+nix_shell_fg = "blue"
+nix_shell_bg = "none"
+nodejs_fg = "green"
+nodejs_bg = "none"
+nodejs_not_capable_fg = "red"
+nodejs_not_capable_bg = "none"
+ocaml_fg = "yellow"
+ocaml_bg = "none"
+odin_fg = "bright-blue"
+odin_bg = "none"
+opa_fg = "blue"
+opa_bg = "none"
+openstack_fg = "yellow"
+openstack_bg = "none"
+os_fg = "white"
+os_bg = "none"
+package_fg = "208"
+package_bg = "none"
+perl_fg = "149"
+perl_bg = "none"
+php_fg = "147"
+php_bg = "none"
+pijul_channel_fg = "purple"
+pijul_channel_bg = "none"
+pixi_fg = "yellow"
+pixi_bg = "none"
+pulumi_fg = "5"
+pulumi_bg = "none"
+purescript_fg = "white"
+purescript_bg = "none"
+python_fg = "yellow"
+python_bg = "none"
+quarto_fg = "#75AADB"
+quarto_bg = "none"
+raku_fg = "149"
+raku_bg = "none"
+red_fg = "red"
+red_bg = "none"
+rlang_fg = "blue"
+rlang_bg = "none"
+ruby_fg = "red"
+ruby_bg = "none"
+rust_fg = "red"
+rust_bg = "none"
+scala_fg = "red"
+scala_bg = "none"
+shell_fg = "white"
+shell_bg = "none"
+shlvl_fg = "yellow"
+shlvl_bg = "none"
+singularity_fg = "blue"
+singularity_bg = "none"
+solidity_fg = "blue"
+solidity_bg = "none"
+spack_fg = "blue"
+spack_bg = "none"
+status_fg = "red"
+status_bg = "none"
+sudo_fg = "blue"
+sudo_bg = "none"
+swift_fg = "202"
+swift_bg = "none"
+terraform_fg = "105"
+terraform_bg = "none"
+time_fg = "yellow"
+time_bg = "none"
+typst_fg = "#0093A7"
+typst_bg = "none"
+username_style_root_fg = "red"
+username_style_root_bg = "none"
+username_style_user_fg = "yellow"
+username_style_user_bg = "none"
+vagrant_fg = "cyan"
+vagrant_bg = "none"
+vcsh_fg = "yellow"
+vcsh_bg = "none"
+vlang_fg = "blue"
+vlang_bg = "none"
+xmake_fg = "green"
+xmake_bg = "none"
+zig_fg = "yellow"
+zig_bg = "none"
+
+[aws]
+format = "on [$symbol($profile )(\\($region\\) )(\\[$duration\\] )]($style)"
+style = "bold fg:aws_fg bg:aws_bg"
+
+[azure]
+format = "on [$symbol($subscription)]($style) "
+style = "bold fg:azure_fg bg:azure_bg"
+
+[battery]
+format = "[$symbol$percentage]($style) "
+
+[buf]
+format = "with [$symbol($version )]($style)"
+style = "bold fg:buf_fg bg:buf_bg"
+
+[bun]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:bun_fg bg:bun_bg"
+
+[c]
+format = "via [$symbol($version(-$name) )]($style)"
+style = "bold fg:c_fg bg:c_bg"
+
+[character]
+format = "$symbol "
+
+[claude_context]
+format = "[$gauge $percentage]($style) "
+
+[claude_cost]
+format = "[$symbol(\\$$cost)]($style) "
+
+[claude_model]
+format = "[$symbol$model]($style) "
+style = "bold fg:claude_model_fg bg:claude_model_bg"
+
+[cmake]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:cmake_fg bg:cmake_bg"
+
+[cmd_duration]
+format = "took [$duration]($style) "
+style = "bold fg:cmd_duration_fg bg:cmd_duration_bg"
+
+[cobol]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:cobol_fg bg:cobol_bg"
+
+[conda]
+format = "via [$symbol$environment]($style) "
+style = "bold fg:conda_fg bg:conda_bg"
+
+[container]
+format = "[$symbol \\[$name\\]]($style) "
+style = "bold dimmed fg:container_fg bg:container_bg"
+
+[cpp]
+format = "via [$symbol($version(-$name) )]($style)"
+style = "bold fg:cpp_fg bg:cpp_bg"
+
+[crystal]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:crystal_fg bg:crystal_bg"
+
+[daml]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:daml_fg bg:daml_bg"
+
+[dart]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:dart_fg bg:dart_bg"
+
+[deno]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:deno_fg bg:deno_bg"
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold fg:directory_fg bg:directory_bg"
+read_only_style = "fg:directory_read_only_style_fg bg:directory_read_only_style_bg"
+repo_root_style = "bold fg:directory_fg bg:directory_bg"
+before_repo_root_style = "bold fg:directory_fg bg:directory_bg"
+
+[direnv]
+format = "[$symbol$loaded/$allowed]($style) "
+style = "bold fg:direnv_fg bg:direnv_bg"
+
+[docker_context]
+format = "via [$symbol$context]($style) "
+style = "bold fg:docker_context_fg bg:docker_context_bg"
+
+[dotnet]
+format = "via [$symbol($version )(🎯 $tfm )]($style)"
+style = "bold fg:dotnet_fg bg:dotnet_bg"
+
+[elixir]
+format = "via [$symbol($version \\(OTP $otp_version\\) )]($style)"
+style = "bold fg:elixir_fg bg:elixir_bg"
+
+[elm]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:elm_fg bg:elm_bg"
+
+[env_var.EXAMPLE]
+format = "with [$symbol$env_value]($style) "
+style = "bold dimmed fg:env_var_fg bg:env_var_bg"
+
+[erlang]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:erlang_fg bg:erlang_bg"
+
+[fennel]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:fennel_fg bg:fennel_bg"
+
+[fill]
+format = ""
+style = "bold fg:fill_fg bg:fill_bg"
+
+[fortran]
+format = "via [$symbol($version(-$name) )]($style)"
+style = "bold fg:fortran_fg bg:fortran_bg"
+
+[fossil_branch]
+format = "on [$symbol$branch]($style) "
+style = "bold fg:fossil_branch_fg bg:fossil_branch_bg"
+
+[fossil_metrics]
+format = "([+$added]($added_style) )([-$deleted]($deleted_style) )"
+added_style = "bold fg:fossil_metrics_added_style_fg bg:fossil_metrics_added_style_bg"
+deleted_style = "bold fg:fossil_metrics_deleted_style_fg bg:fossil_metrics_deleted_style_bg"
+
+[gcloud]
+format = "on [$symbol$account(@$domain)(\\($region\\))]($style) "
+style = "bold fg:gcloud_fg bg:gcloud_bg"
+
+[git_branch]
+format = "on [$symbol$branch(:$remote_branch)]($style) "
+style = "bold fg:git_branch_fg bg:git_branch_bg"
+
+[git_commit]
+format = "[\\($hash$tag\\)]($style) "
+style = "bold fg:git_commit_fg bg:git_commit_bg"
+
+[git_metrics]
+format = "([+$added]($added_style) )([-$deleted]($deleted_style) )"
+added_style = "bold fg:git_metrics_added_style_fg bg:git_metrics_added_style_bg"
+deleted_style = "bold fg:git_metrics_deleted_style_fg bg:git_metrics_deleted_style_bg"
+
+[git_state]
+format = "\\([$state( $progress_current/$progress_total)]($style)\\) "
+style = "bold fg:git_state_fg bg:git_state_bg"
+
+[git_status]
+format = "([\\[$all_status$ahead_behind\\]]($style) )"
+style = "bold fg:git_status_fg bg:git_status_bg"
+
+[gleam]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:gleam_fg bg:gleam_bg"
+
+[golang]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:golang_fg bg:golang_bg"
+not_capable_style = "bold fg:golang_not_capable_fg bg:golang_not_capable_bg"
+
+[gradle]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:gradle_fg bg:gradle_bg"
+
+[guix_shell]
+format = "via [$symbol]($style) "
+style = "bold fg:guix_shell_fg bg:guix_shell_bg"
+
+[haskell]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:haskell_fg bg:haskell_bg"
+
+[haxe]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:haxe_fg bg:haxe_bg"
+
+[helm]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:helm_fg bg:helm_bg"
+
+[hg_branch]
+format = "on [$symbol$branch(:$topic)]($style) "
+style = "bold fg:hg_branch_fg bg:hg_branch_bg"
+
+[hg_state]
+format = "\\([$state]($style)\\) "
+style = "bold fg:hg_state_fg bg:hg_state_bg"
+
+[hostname]
+format = "[$ssh_symbol$hostname]($style) in "
+style = "dimmed bold fg:hostname_fg bg:hostname_bg"
+
+[java]
+format = "via [$symbol($version )]($style)"
+style = "dimmed fg:java_fg bg:java_bg"
+
+[jobs]
+format = "[$symbol$number]($style) "
+style = "bold fg:jobs_fg bg:jobs_bg"
+
+[julia]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:julia_fg bg:julia_bg"
+
+[kotlin]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:kotlin_fg bg:kotlin_bg"
+
+[kubernetes]
+format = "[$symbol$context( \\($namespace\\))]($style) in "
+style = "bold fg:kubernetes_fg bg:kubernetes_bg"
+
+[localip]
+format = "[$localipv4]($style) "
+style = "bold fg:localip_fg bg:localip_bg"
+
+[lua]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:lua_fg bg:lua_bg"
+
+[maven]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:maven_fg bg:maven_bg"
+
+[memory_usage]
+format = "via $symbol[$ram( | $swap)]($style) "
+style = "bold dimmed fg:memory_usage_fg bg:memory_usage_bg"
+
+[meson]
+format = "via [$symbol$project]($style) "
+style = "bold fg:meson_fg bg:meson_bg"
+
+[mise]
+format = "on [$symbol$health]($style) "
+style = "bold fg:mise_fg bg:mise_bg"
+
+[mojo]
+format = "with [$symbol($version )]($style)"
+style = "bold fg:mojo_fg bg:mojo_bg"
+
+[nats]
+format = "[$symbol($name )]($style)"
+style = "bold fg:nats_fg bg:nats_bg"
+
+[netns]
+format = "[$symbol \\[$name\\]]($style) "
+style = "bold dimmed fg:netns_fg bg:netns_bg"
+
+[nim]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:nim_fg bg:nim_bg"
+
+[nix_shell]
+format = "via [$symbol$state( \\($name\\))]($style) "
+style = "bold fg:nix_shell_fg bg:nix_shell_bg"
+
+[nodejs]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:nodejs_fg bg:nodejs_bg"
+not_capable_style = "bold fg:nodejs_not_capable_fg bg:nodejs_not_capable_bg"
+
+[ocaml]
+format = "via [$symbol($version )(\\($switch_indicator$switch_name\\) )]($style)"
+style = "bold fg:ocaml_fg bg:ocaml_bg"
+
+[odin]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:odin_fg bg:odin_bg"
+
+[opa]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:opa_fg bg:opa_bg"
+
+[openstack]
+format = "on [$symbol$cloud(\\($project\\))]($style) "
+style = "bold fg:openstack_fg bg:openstack_bg"
+
+[os]
+format = "[$symbol]($style)"
+style = "bold fg:os_fg bg:os_bg"
+
+[package]
+format = "is [$symbol$version]($style) "
+style = "bold fg:package_fg bg:package_bg"
+
+[perl]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:perl_fg bg:perl_bg"
+
+[php]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:php_fg bg:php_bg"
+
+[pijul_channel]
+format = "on [$symbol$channel]($style) "
+style = "bold fg:pijul_channel_fg bg:pijul_channel_bg"
+
+[pixi]
+format = "via [$symbol($version )(\\($environment\\) )]($style)"
+style = "bold fg:pixi_fg bg:pixi_bg"
+
+[pulumi]
+format = "via [$symbol($username@)$stack]($style) "
+style = "bold fg:pulumi_fg bg:pulumi_bg"
+
+[purescript]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:purescript_fg bg:purescript_bg"
+
+[python]
+format = "via [${symbol}${pyenv_prefix}(${version} )(\\($virtualenv\\) )]($style)"
+style = "bold fg:python_fg bg:python_bg"
+
+[quarto]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:quarto_fg bg:quarto_bg"
+
+[raku]
+format = "via [$symbol($version-$vm_version )]($style)"
+style = "bold fg:raku_fg bg:raku_bg"
+
+[red]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:red_fg bg:red_bg"
+
+[rlang]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:rlang_fg bg:rlang_bg"
+
+[ruby]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:ruby_fg bg:ruby_bg"
+
+[rust]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:rust_fg bg:rust_bg"
+
+[scala]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:scala_fg bg:scala_bg"
+
+[shell]
+format = "[$indicator]($style) "
+style = "bold fg:shell_fg bg:shell_bg"
+
+[shlvl]
+format = "[$symbol$shlvl]($style) "
+style = "bold fg:shlvl_fg bg:shlvl_bg"
+
+[singularity]
+format = "[$symbol\\[$env\\]]($style) "
+style = "bold dimmed fg:singularity_fg bg:singularity_bg"
+
+[solidity]
+format = "via [$symbol($version)]($style)"
+style = "bold fg:solidity_fg bg:solidity_bg"
+
+[spack]
+format = "via [$symbol$environment]($style) "
+style = "bold fg:spack_fg bg:spack_bg"
+
+[status]
+format = "[$symbol$status]($style) "
+style = "bold fg:status_fg bg:status_bg"
+
+[sudo]
+format = "[as $symbol]($style)"
+style = "bold fg:sudo_fg bg:sudo_bg"
+
+[swift]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:swift_fg bg:swift_bg"
+
+[terraform]
+format = "via [$symbol$workspace]($style) "
+style = "bold fg:terraform_fg bg:terraform_bg"
+
+[time]
+format = "at [$time]($style) "
+style = "bold fg:time_fg bg:time_bg"
+
+[typst]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:typst_fg bg:typst_bg"
+
+[username]
+format = "[$user]($style) in "
+style_root = "bold fg:username_style_root_fg bg:username_style_root_bg"
+style_user = "bold fg:username_style_user_fg bg:username_style_user_bg"
+
+[vagrant]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:vagrant_fg bg:vagrant_bg"
+
+[vcsh]
+format = "vcsh [$symbol$repo]($style) "
+style = "bold fg:vcsh_fg bg:vcsh_bg"
+
+[vlang]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:vlang_fg bg:vlang_bg"
+
+[xmake]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:xmake_fg bg:xmake_bg"
+
+[zig]
+format = "via [$symbol($version )]($style)"
+style = "bold fg:zig_fg bg:zig_bg"
