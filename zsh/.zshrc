@@ -29,9 +29,6 @@ bindkey -M menuselect '^[[Z' reverse-menu-complete   # shift-tab goes backward
 #bindkey '^[[B' history-substring-search-down
 #source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh   # load last
 
-# --- Starship prompt ---
-#eval "$(starship init zsh)"
-
 # --- History ---
 HISTSIZE=10000
 SAVEHIST=10000
@@ -52,8 +49,9 @@ export EDITOR="vim"
 # --- Path ---
 export PATH="$HOME/.local/bin:$PATH"
 
-# --- Powerlevel10k prompt ---
+# --- prompt ---
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+#eval "$(starship init zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
