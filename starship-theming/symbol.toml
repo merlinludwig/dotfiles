@@ -92,7 +92,7 @@ symbol = "🌳 "
 symbol = ""
 
 [erlang]
-symbol = " "
+symbol = ""
 
 [fennel]
 symbol = "🧅 "
@@ -104,13 +104,13 @@ symbol = "."
 symbol = "🅵  "
 
 [fossil_branch]
-symbol = " "
+symbol = ""
 
 [gcloud]
 symbol = "☁️  "
 
 [git_branch]
-symbol = " "
+symbol = ""
 
 [git_commit]
 tag_symbol = " 🏷  "
@@ -159,7 +159,7 @@ symbol = "⌘ "
 symbol = "⎈ "
 
 [hg_branch]
-symbol = " "
+symbol = ""
 
 [hostname]
 ssh_symbol = "🌐 "
@@ -212,7 +212,7 @@ symbol = "👑 "
 symbol = "❄️  "
 
 [nodejs]
-symbol = " "
+symbol = ""
 
 [ocaml]
 symbol = "🐫 "
@@ -286,7 +286,7 @@ Ubuntu = "🎯 "
 Ultramarine = "🔷 "
 Unknown = "❓ "
 Uos = "🐲 "
-Void = " "
+Void = ""
 Windows = "🪟 "
 Zorin = "🔹 "
 
@@ -300,13 +300,13 @@ symbol = "🐪 "
 symbol = "🐘 "
 
 [pijul_channel]
-symbol = " "
+symbol = ""
 
 [pixi]
 symbol = "🧚 "
 
 [pulumi]
-symbol = " "
+symbol = ""
 
 [purescript]
 symbol = "<=> "
