@@ -162,8 +162,17 @@ format = "\\([$state( $progress_current/$progress_total)]($style)\\) "
 style = "bold fg:git_state_fg bg:git_state_bg"
 
 [git_status]
-format = "([\\[$all_status$ahead_behind\\]]($style) )"
+format = "([$all_status$ahead_behind]($style) )"
 style = "bold fg:git_status_fg bg:git_status_bg"
+stashed = '\$${count} '
+ahead = "⇡${count} "
+behind = "⇣${count} "
+conflicted = "=${count} "
+deleted = "✘${count} "
+renamed = "»${count} "
+modified = "!${count} "
+staged = "+${count} "
+untracked = "?${count} "
 
 [gleam]
 format = "[$symbol($version )]($style)"

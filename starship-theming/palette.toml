@@ -1,4 +1,6 @@
+#palette = "default"
 palette = "dracula"
+#palette = "nord"
 
 [palettes.default]
 aws_fg = "yellow"
