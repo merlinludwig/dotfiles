@@ -1,7 +1,7 @@
 "$schema" = "https://starship.rs/config-schema.json"
 
-format = "$all"
-right_format = ""
+format = "[](fg:os_bg)$os[](fg:os_bg bg:directory_bg)$directory[](fg:directory_bg bg:git_branch_bg)$git_branch[](fg:git_branch_bg bg:git_status_bg)$git_status[](fg:git_status_bg)"
+right_format = "[](fg:status_bg)$status[](fg:status_bg bg:cmd_duration_bg)$cmd_duration[](fg:cmd_duration_bg bg:jobs_bg)$jobs[](fg:jobs_bg bg:direnv_bg)$direnv[](fg:direnv_bg bg:python_bg)$python[](fg:python_bg bg:conda_bg)$conda[](fg:conda_bg bg:golang_bg)$golang[](fg:golang_bg bg:nodejs_bg)$nodejs[](fg:nodejs_bg bg:ruby_bg)$ruby[](fg:ruby_bg bg:lua_bg)$lua[](fg:lua_bg bg:java_bg)$java[](fg:java_bg bg:perl_bg)$perl[](fg:perl_bg bg:php_bg)$php[](fg:php_bg bg:scala_bg)$scala[](fg:scala_bg bg:haskell_bg)$haskell[](fg:haskell_bg bg:kubernetes_bg)$kubernetes[](fg:kubernetes_bg bg:terraform_bg)$terraform[](fg:terraform_bg bg:aws_bg)$aws[](fg:aws_bg bg:azure_bg)$azure[](fg:azure_bg bg:gcloud_bg)$gcloud[](fg:gcloud_bg bg:container_bg)$container[](fg:container_bg bg:username_style_user_bg)$username[](fg:username_style_user_bg bg:hostname_bg)$hostname[](fg:hostname_bg bg:nix_shell_bg)$nix_shell[](fg:nix_shell_bg)"
 continuation_prompt = "[∙](bright-black) "
 scan_timeout = 30
 command_timeout = 500
