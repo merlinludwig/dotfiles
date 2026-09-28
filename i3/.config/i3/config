@@ -74,7 +74,8 @@ bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 #bindsym Print exec --no-startup-id i3-scrot
 bindsym Print exec --no-startup-id flameshot gui
-bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+#bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Print --release exec --no-startup-id flameshot full
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
@@ -197,7 +198,6 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 assign [class="discord"] $ws2
 assign [class="steam"] $ws3
 assign [class='heroic'] $ws3
-assign [class='rare'] $ws3
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -304,7 +304,6 @@ exec --no-startup-id ~/.screenlayout/default-display.sh
 exec --no-startup-id discord
 exec --no-startup-id steam
 exec --no-startup-id heroic
-# exec --no-startup-id rare
 exec --no-startup-id polychromatic-tray-applet
 exec --no-startup-id ~/actualbudget/server.sh
 

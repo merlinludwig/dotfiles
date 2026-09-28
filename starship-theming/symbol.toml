@@ -1,9 +1,10 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
 [aws]
-symbol = "☁️  "
-expiration_symbol = "X"
+symbol = " "
 
 [azure]
-symbol = "󰠅 "
+symbol = " "
 
 [battery]
 full_symbol = "󰁹 "
@@ -13,384 +14,295 @@ unknown_symbol = "󰂑 "
 empty_symbol = "󰂎 "
 
 [buf]
-symbol = "🐃 "
+symbol = " "
 
 [bun]
-symbol = "🥟 "
+symbol = " "
 
 [c]
-symbol = "C "
-
-[character]
-success_symbol = "[❯](bold fg:character_success_fg bg:character_success_bg)"
-error_symbol = "[❯](bold fg:character_error_fg bg:character_error_bg)"
-vimcmd_symbol = "[❮](bold fg:character_vimcmd_fg bg:character_vimcmd_bg)"
-vimcmd_visual_symbol = "[❮](bold fg:character_vimcmd_visual_fg bg:character_vimcmd_visual_bg)"
-vimcmd_replace_symbol = "[❮](bold fg:character_vimcmd_replace_fg bg:character_vimcmd_replace_bg)"
-vimcmd_replace_one_symbol = "[❮](bold fg:character_vimcmd_replace_one_fg bg:character_vimcmd_replace_one_bg)"
-
-[claude_context]
-symbol = ""
-gauge_full_symbol = "█"
-gauge_partial_symbol = "▒"
-gauge_empty_symbol = "░"
-
-[claude_cost]
-symbol = "💰 "
-
-[claude_model]
-symbol = "🤖 "
-
-[cmake]
-symbol = "△ "
-
-[cobol]
-symbol = "⚙️ "
-
-[conda]
-symbol = "🅒 "
-
-[container]
-symbol = "⬢"
+symbol = " "
 
 [cpp]
-symbol = "C++ "
+symbol = " "
+
+[cmake]
+symbol = " "
+
+[cobol]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[container]
+symbol = " "
 
 [crystal]
-symbol = "🔮 "
-
-[daml]
-symbol = "Λ "
+symbol = " "
 
 [dart]
-symbol = "🎯 "
+symbol = " "
 
 [deno]
-symbol = "🦕 "
-
-[directory]
-read_only = "🔒"
-truncation_symbol = ""
-home_symbol = "~"
+symbol = " "
 
 [direnv]
-symbol = "direnv "
+symbol = " "
+
+[directory]
+read_only = " 󰌾"
 
 [docker_context]
-symbol = "🐳 "
+symbol = " "
 
 [dotnet]
-symbol = ".NET "
+symbol = " "
 
 [elixir]
-symbol = "💧 "
+symbol = " "
 
 [elm]
-symbol = "🌳 "
-
-[env_var.EXAMPLE]
-symbol = ""
+symbol = " "
 
 [erlang]
-symbol = " "
+symbol = " "
 
 [fennel]
-symbol = "🧅 "
-
-[fill]
-symbol = "."
+symbol = " "
 
 [fortran]
-symbol = "🅵  "
+symbol = " "
 
 [fossil_branch]
-symbol = " "
+symbol = " "
 
 [gcloud]
-symbol = "☁️  "
-
-[git_branch]
-symbol = " "
-
-[git_commit]
-tag_symbol = " 🏷  "
-
-[git_status]
-stashed = "\\$"
-ahead = "⇡"
-behind = "⇣"
-up_to_date = ""
-diverged = "⇕"
-conflicted = "="
-deleted = "✘"
-renamed = "»"
-modified = "!"
-staged = "+"
-untracked = "?"
-typechanged = ""
-worktree_added = ""
-worktree_deleted = ""
-worktree_modified = ""
-worktree_typechanged = ""
-index_added = ""
-index_deleted = ""
-index_modified = ""
-index_typechanged = ""
+symbol = "󱇶 "
 
 [gleam]
-symbol = "⭐ "
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = '  '
 
 [golang]
-symbol = "🐹 "
+symbol = " "
 
 [gradle]
-symbol = "🅶 "
+symbol = " "
 
 [guix_shell]
-symbol = "🐃 "
+symbol = " "
 
 [haskell]
-symbol = "λ "
+symbol = " "
 
 [haxe]
-symbol = "⌘ "
+symbol = " "
 
 [helm]
-symbol = "⎈ "
+symbol = " "
 
 [hg_branch]
-symbol = " "
+symbol = " "
 
 [hostname]
-ssh_symbol = "🌐 "
+ssh_symbol = " "
 
 [java]
-symbol = "☕ "
-
-[jobs]
-symbol = "✦"
+symbol = " "
 
 [julia]
-symbol = "ஃ "
+symbol = " "
 
 [kotlin]
-symbol = "🅺 "
+symbol = " "
 
 [kubernetes]
-symbol = "☸ "
+symbol = "󱃾 "
 
 [lua]
-symbol = "🌙 "
+symbol = " "
 
 [maven]
-symbol = "🅼 "
+symbol = " "
 
 [memory_usage]
-symbol = "🐏 "
+symbol = "󰍛 "
 
 [meson]
-symbol = "⬢ "
-
-[mise]
-symbol = "mise "
-healthy_symbol = "healthy"
-unhealthy_symbol = "unhealthy"
+symbol = "󰔷 "
 
 [mojo]
-symbol = "🔥 "
+symbol = "󰈸 "
 
 [nats]
-symbol = "✉️ "
+symbol = " "
 
 [netns]
-symbol = "🛜"
+symbol = "󰛳 "
 
 [nim]
-symbol = "👑 "
+symbol = " "
 
 [nix_shell]
-symbol = "❄️  "
+symbol = " "
 
 [nodejs]
-symbol = " "
+symbol = " "
 
 [ocaml]
-symbol = "🐫 "
-global_switch_indicator = ""
-local_switch_indicator = "*"
+symbol = " "
 
 [odin]
-symbol = "Ø "
+symbol = "󰟢 "
 
 [opa]
-symbol = "🪖 "
+symbol = " "
 
 [openstack]
-symbol = "☁️  "
-
-[os]
+symbol = " "
 
 [os.symbols]
-AIX = "➿ "
-Alpaquita = "🔔 "
-AlmaLinux = "💠 "
-Alpine = "🏔️ "
-ALTLinux = "Ⓐ "
-Amazon = "🙂 "
-Android = "🤖 "
-AOSC = "🐱 "
-Arch = "🎗️ "
-Artix = "🎗️ "
-Bluefin = "🐟 "
-CachyOS = "🎗️ "
-CentOS = "💠 "
-Debian = "🌀 "
-Elementary = "🍏 "
-DragonFly = "🐉 "
-Emscripten = "🔗 "
-EndeavourOS = "🚀 "
-Fedora = "🎩 "
-FreeBSD = "😈 "
-Garuda = "🦅 "
-Gentoo = "🗜️ "
-HardenedBSD = "🛡️ "
-Illumos = "🐦 "
-Ios = "📱 "
-InstantOS = "⏲️ "
-Kali = "🐉 "
-Linux = "🐧 "
-Mabox = "📦 "
-Macos = "🍎 "
-Manjaro = "🥭 "
-Mariner = "🌊 "
-MidnightBSD = "🌘 "
-Mint = "🌿 "
-NetBSD = "🚩 "
-NixOS = "❄️ "
-Nobara = "🎩 "
-OpenBSD = "🐡 "
-OpenCloudOS = "☁️ "
-openEuler = "🦉 "
-openSUSE = "🦎 "
-OracleLinux = "🦴 "
-PikaOS = "🐤 "
-Pop = "🍭 "
-Raspbian = "🍓 "
-Redhat = "🎩 "
-RedHatEnterprise = "🎩 "
-RockyLinux = "💠 "
-Redox = "🧪 "
-Solus = "⛵ "
-SUSE = "🦎 "
-Ubuntu = "🎯 "
-Ultramarine = "🔷 "
-Unknown = "❓ "
-Uos = "🐲 "
-Void = " "
-Windows = "🪟 "
-Zorin = "🔹 "
+AIX = " "
+AlmaLinux = " "
+Alpaquita = " "
+Alpine = " "
+ALTLinux = " "
+Amazon = " "
+Android = " "
+AOSC = " "
+Arch = " "
+Artix = " "
+Bluefin = " "
+CachyOS = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Elementary = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = " "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = " "
+InstantOS = " "
+Ios = "󰀷 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+Nobara = " "
+OpenBSD = " "
+OpenCloudOS = " "
+openEuler = " "
+openSUSE = " "
+OracleLinux = "󰺡 "
+PikaOS = " "
+Pop = " "
+Raspbian = " "
+Redhat = "󱄛 "
+RedHatEnterprise = "󱄛 "
+Redox = "󰀘 "
+RockyLinux = " "
+Solus = " "
+SUSE = " "
+Ubuntu = " "
+Ultramarine = " "
+Unknown = " "
+Uos = " "
+Void = " "
+Windows = "󰍲 "
+Zorin = " "
 
 [package]
-symbol = "📦 "
+symbol = "󰏗 "
 
 [perl]
-symbol = "🐪 "
+symbol = " "
 
 [php]
-symbol = "🐘 "
+symbol = " "
 
 [pijul_channel]
-symbol = " "
+symbol = " "
 
 [pixi]
-symbol = "🧚 "
+symbol = "󰏗 "
 
 [pulumi]
-symbol = " "
+symbol = " "
 
 [purescript]
-symbol = "<=> "
+symbol = " "
 
 [python]
-symbol = "🐍 "
-
-[quarto]
-symbol = "⨁ "
+symbol = " "
 
 [raku]
-symbol = "🦋 "
+symbol = "󱖊 "
 
 [red]
-symbol = "🔺 "
+symbol = "󱍼 "
 
 [rlang]
-symbol = "📐 "
+symbol = "󰟔 "
 
 [ruby]
-symbol = "💎 "
+symbol = " "
 
 [rust]
-symbol = "🦀 "
+symbol = "󱘗 "
 
 [scala]
-symbol = "🆂 "
-
-[shell]
-bash_indicator = "bsh"
-fish_indicator = "fsh"
-zsh_indicator = "zsh"
-powershell_indicator = "psh"
-ion_indicator = "ion"
-elvish_indicator = "esh"
-tcsh_indicator = "tsh"
-nu_indicator = "nu"
-xonsh_indicator = "xsh"
-cmd_indicator = "cmd"
-unknown_indicator = ""
+symbol = " "
 
 [shlvl]
-symbol = "↕️  "
+symbol = "󰹍 "
 
 [singularity]
-symbol = ""
+symbol = " "
 
 [solidity]
-symbol = "S "
+symbol = " "
 
 [spack]
-symbol = "🅢 "
+symbol = " "
 
 [status]
-symbol = "❌"
-success_symbol = ""
-not_executable_symbol = "🚫"
-not_found_symbol = "🔍"
-sigint_symbol = "🧱"
-signal_symbol = "⚡"
+symbol = " "
 
 [sudo]
-symbol = "🧙 "
+symbol = " "
 
 [swift]
-symbol = "🐦 "
+symbol = " "
 
 [terraform]
-symbol = "💠 "
-
-[typst]
-symbol = "t "
-
-[vagrant]
-symbol = "⍱ "
-
-[vcsh]
-symbol = ""
+symbol = " "
 
 [vlang]
-symbol = "V "
+symbol = " "
+
+[typst]
+symbol = " "
+
+[vagrant]
+symbol = " "
 
 [xmake]
-symbol = "△ "
+symbol = " "
 
 [zig]
-symbol = "↯ "
+symbol = " "

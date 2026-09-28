@@ -20,4 +20,4 @@ def merge_files(paths, output_path):
     with open(output_path, "w") as f:
         f.write(tomlkit.dumps(merged))
 
-merge_files(["style.toml", "symbol.toml", "extra.toml"], "../starship/.config/starship.toml")
+merge_files(["palette.toml", "style.toml", "symbol.toml", "extra.toml"], "../starship/.config/starship.toml")
