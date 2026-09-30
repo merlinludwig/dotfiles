@@ -86,6 +86,7 @@ style = "bold fg:deno_fg bg:deno_bg"
 
 [directory]
 format = "[$path]($style)[$read_only]($read_only_style) "
+repo_root_format = "[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style)"
 style = "bold fg:directory_fg bg:directory_bg"
 read_only_style = "fg:directory_read_only_style_fg bg:directory_read_only_style_bg"
 repo_root_style = "bold fg:directory_fg bg:directory_bg"
